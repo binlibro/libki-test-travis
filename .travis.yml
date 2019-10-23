@@ -4,8 +4,8 @@ env:
   global:
     - IMAGE_NAME=libki/libki-server
     - IMAGE_NAME_CI=libki/libki-server-ci-artifacts
-    - DOCKER_USERNAME=kylemhall
-    # DOCKER_PASSWORD=...
+    - DOCKER_USERNAME=binlibro
+    - DOCKER_PASSWORD=123123123
 
 jobs:
   include:
